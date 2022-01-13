@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        h1 {
+            text-align: center;
+        }
+
+        .photo-container {
+            display: flex;
+            flex-wrap: wrap;
+
+        }
+
+        .photo-album {
+            display: flex;
+            flex-direction: column;
+            width: 300px;
+            height: 180px;
+            border: 2px solid goldenrod;
+            border-radius: 10px;
+            margin: 15px;
+            overflow: hidden;
+        }
+
+        img {
+            width: 100%;
+            border-radius: 10px;
+        }
+
+        .photo-details {
+            position: absolute;
+            width: 300px;
+            display: none;
+        }
+
+        h3 {
+            background-color: black;
+            color: white;
+            text-align: center;
+        }
+
+        .photo-album:hover .photo-details {
+            position: absolute;
+            width: 300px;
+            display: block;
+            background-color: rgba(211, 197, 161, 0.555);
+        }
+
+        .photo-album:hover .photo-frame {
+            transform: scale(1.5);
+            transition: transform 2s ease-in-out;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>My Photo Album</h1>
+    <div class="photo-container">
+        <div class="photo-album">
+            <div class="photo-frame">
+                <img src='https://cdn.mos.cms.futurecdn.net/YB6aQqKZBVjtt3PuDSkJKe.jpg' alt="">
+            </div>
+            <div class="photo-details">
+                <h3>Royal Bengal Tiger</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae expedita debitis magnam
+                    consequuntur
+                    ratione similique reprehenderit consectetur autem nostrum vitae quia perspiciatis, quibusdam ut?
+                    Unde
+                    asperiores placeat nostrum corrupti aliquam.</p>
+            </div>
+        </div>
+        <div class="photo-album">
+            <div class="photo-frame">
+                <img src='https://cdn.mos.cms.futurecdn.net/YB6aQqKZBVjtt3PuDSkJKe.jpg' alt="">
+            </div>
+            <div class="photo-details">
+                <h3>Royal Bengal Tiger</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae expedita debitis magnam
+                    consequuntur
+                    ratione similique reprehenderit consectetur autem nostrum vitae quia perspiciatis, quibusdam ut?
+                    Unde
+                    asperiores placeat nostrum corrupti aliquam.</p>
+            </div>
+        </div>
+        <div class="photo-album">
+            <div class="photo-frame">
+                <img src='https://cdn.mos.cms.futurecdn.net/YB6aQqKZBVjtt3PuDSkJKe.jpg' alt="">
+            </div>
+            <div class="photo-details">
+                <h3>Royal Bengal Tiger</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae expedita debitis magnam
+                    consequuntur
+                    ratione similique reprehenderit consectetur autem nostrum vitae quia perspiciatis, quibusdam ut?
+                    Unde
+                    asperiores placeat nostrum corrupti aliquam.</p>
+            </div>
+        </div>
+        <div class="photo-album">
+            <div class="photo-frame">
+                <img src='https://cdn.mos.cms.futurecdn.net/YB6aQqKZBVjtt3PuDSkJKe.jpg' alt="">
+            </div>
+            <div class="photo-details">
+                <h3>Royal Bengal Tiger</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae expedita debitis magnam
+                    consequuntur
+                    ratione similique reprehenderit consectetur autem nostrum vitae quia perspiciatis, quibusdam ut?
+                    Unde
+                    asperiores placeat nostrum corrupti aliquam.</p>
+            </div>
+        </div>
+        <div class="photo-album">
+            <div class="photo-frame">
+                <img src='https://cdn.mos.cms.futurecdn.net/YB6aQqKZBVjtt3PuDSkJKe.jpg' alt="">
+            </div>
+            <div class="photo-details">
+                <h3>Royal Bengal Tiger</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae expedita debitis magnam
+                    consequuntur
+                    ratione similique reprehenderit consectetur autem nostrum vitae quia perspiciatis, quibusdam ut?
+                    Unde
+                    asperiores placeat nostrum corrupti aliquam.</p>
+            </div>
+        </div>
+        <div class="photo-album">
+            <div class="photo-frame">
+                <img src='https://cdn.mos.cms.futurecdn.net/YB6aQqKZBVjtt3PuDSkJKe.jpg' alt="">
+            </div>
+            <div class="photo-details">
+                <h3>Royal Bengal Tiger</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae expedita debitis magnam
+                    consequuntur
+                    ratione similique reprehenderit consectetur autem nostrum vitae quia perspiciatis, quibusdam ut?
+                    Unde
+                    asperiores placeat nostrum corrupti aliquam.</p>
+            </div>
+        </div>
+        <div class="photo-album">
+            <div class="photo-frame">
+                <img src='https://cdn.mos.cms.futurecdn.net/YB6aQqKZBVjtt3PuDSkJKe.jpg' alt="">
+            </div>
+            <div class="photo-details">
+                <h3>Royal Bengal Tiger</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae expedita debitis magnam
+                    consequuntur
+                    ratione similique reprehenderit consectetur autem nostrum vitae quia perspiciatis, quibusdam ut?
+                    Unde
+                    asperiores placeat nostrum corrupti aliquam.</p>
+            </div>
+        </div>
+        <div class="photo-album">
+            <div class="photo-frame">
+                <img src='https://cdn.mos.cms.futurecdn.net/YB6aQqKZBVjtt3PuDSkJKe.jpg' alt="">
+            </div>
+            <div class="photo-details">
+                <h3>Royal Bengal Tiger</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae expedita debitis magnam
+                    consequuntur
+                    ratione similique reprehenderit consectetur autem nostrum vitae quia perspiciatis, quibusdam ut?
+                    Unde
+                    asperiores placeat nostrum corrupti aliquam.</p>
+            </div>
+        </div>
+        <div class="photo-album">
+            <div class="photo-frame">
+                <img src='https://cdn.mos.cms.futurecdn.net/YB6aQqKZBVjtt3PuDSkJKe.jpg' alt="">
+            </div>
+            <div class="photo-details">
+                <h3>Royal Bengal Tiger</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae expedita debitis magnam
+                    consequuntur
+                    ratione similique reprehenderit consectetur autem nostrum vitae quia perspiciatis, quibusdam ut?
+                    Unde
+                    asperiores placeat nostrum corrupti aliquam.</p>
+            </div>
+        </div>
+        <div class="photo-album">
+            <div class="photo-frame">
+                <img src='https://cdn.mos.cms.futurecdn.net/YB6aQqKZBVjtt3PuDSkJKe.jpg' alt="">
+            </div>
+            <div class="photo-details">
+                <h3>Royal Bengal Tiger</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae expedita debitis magnam
+                    consequuntur
+                    ratione similique reprehenderit consectetur autem nostrum vitae quia perspiciatis, quibusdam ut?
+                    Unde
+                    asperiores placeat nostrum corrupti aliquam.</p>
+            </div>
+        </div>
+        <div class="photo-album">
+            <div class="photo-frame">
+                <img src='https://cdn.mos.cms.futurecdn.net/YB6aQqKZBVjtt3PuDSkJKe.jpg' alt="">
+            </div>
+            <div class="photo-details">
+                <h3>Royal Bengal Tiger</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae expedita debitis magnam
+                    consequuntur
+                    ratione similique reprehenderit consectetur autem nostrum vitae quia perspiciatis, quibusdam ut?
+                    Unde
+                    asperiores placeat nostrum corrupti aliquam.</p>
+            </div>
+        </div>
+        <div class="photo-album">
+            <div class="photo-frame">
+                <img src='https://cdn.mos.cms.futurecdn.net/YB6aQqKZBVjtt3PuDSkJKe.jpg' alt="">
+            </div>
+            <div class="photo-details">
+                <h3>Royal Bengal Tiger</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae expedita debitis magnam
+                    consequuntur
+                    ratione similique reprehenderit consectetur autem nostrum vitae quia perspiciatis, quibusdam ut?
+                    Unde
+                    asperiores placeat nostrum corrupti aliquam.</p>
+            </div>
+        </div>
+        <div class="photo-album">
+            <div class="photo-frame">
+                <img src='https://cdn.mos.cms.futurecdn.net/YB6aQqKZBVjtt3PuDSkJKe.jpg' alt="">
+            </div>
+            <div class="photo-details">
+                <h3>Royal Bengal Tiger</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae expedita debitis magnam
+                    consequuntur
+                    ratione similique reprehenderit consectetur autem nostrum vitae quia perspiciatis, quibusdam ut?
+                    Unde
+                    asperiores placeat nostrum corrupti aliquam.</p>
+            </div>
+        </div>
+        <div class="photo-album">
+            <div class="photo-frame">
+                <img src='https://cdn.mos.cms.futurecdn.net/YB6aQqKZBVjtt3PuDSkJKe.jpg' alt="">
+            </div>
+            <div class="photo-details">
+                <h3>Royal Bengal Tiger</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae expedita debitis magnam
+                    consequuntur
+                    ratione similique reprehenderit consectetur autem nostrum vitae quia perspiciatis, quibusdam ut?
+                    Unde
+                    asperiores placeat nostrum corrupti aliquam.</p>
+            </div>
+        </div>
+        <div class="photo-album">
+            <div class="photo-frame">
+                <img src='https://cdn.mos.cms.futurecdn.net/YB6aQqKZBVjtt3PuDSkJKe.jpg' alt="">
+            </div>
+            <div class="photo-details">
+                <h3>Royal Bengal Tiger</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae expedita debitis magnam
+                    consequuntur
+                    ratione similique reprehenderit consectetur autem nostrum vitae quia perspiciatis, quibusdam ut?
+                    Unde
+                    asperiores placeat nostrum corrupti aliquam.</p>
+            </div>
+        </div>
+        <div class="photo-album">
+            <div class="photo-frame">
+                <img src='https://cdn.mos.cms.futurecdn.net/YB6aQqKZBVjtt3PuDSkJKe.jpg' alt="">
+            </div>
+            <div class="photo-details">
+                <h3>Royal Bengal Tiger</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae expedita debitis magnam
+                    consequuntur
+                    ratione similique reprehenderit consectetur autem nostrum vitae quia perspiciatis, quibusdam ut?
+                    Unde
+                    asperiores placeat nostrum corrupti aliquam.</p>
+            </div>
+        </div>
+        <div class="photo-album">
+            <div class="photo-frame">
+                <img src='https://cdn.mos.cms.futurecdn.net/YB6aQqKZBVjtt3PuDSkJKe.jpg' alt="">
+            </div>
+            <div class="photo-details">
+                <h3>Royal Bengal Tiger</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae expedita debitis magnam
+                    consequuntur
+                    ratione similique reprehenderit consectetur autem nostrum vitae quia perspiciatis, quibusdam ut?
+                    Unde
+                    asperiores placeat nostrum corrupti aliquam.</p>
+            </div>
+        </div>
+        <div class="photo-album">
+            <div class="photo-frame">
+                <img src='https://cdn.mos.cms.futurecdn.net/YB6aQqKZBVjtt3PuDSkJKe.jpg' alt="">
+            </div>
+            <div class="photo-details">
+                <h3>Royal Bengal Tiger</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae expedita debitis magnam
+                    consequuntur
+                    ratione similique reprehenderit consectetur autem nostrum vitae quia perspiciatis, quibusdam ut?
+                    Unde
+                    asperiores placeat nostrum corrupti aliquam.</p>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
